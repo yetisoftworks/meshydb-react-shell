@@ -1,6 +1,6 @@
 {
   "name": "@meshydb/react-shell",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "Initial React shell with integrated MeshyDB.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,17 @@
     "inquirer": "^7.0.0",
     "listr": "^0.14.3",
     "rimraf": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetisoftworks/meshydb-react-shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yetisoftworks/meshydb-react-shell/issues"
+  },
+  "homepage": "https://meshydb.com",
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=8"
