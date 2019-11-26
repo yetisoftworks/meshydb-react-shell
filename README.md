@@ -8,13 +8,13 @@ For how to get started please see https://docs.meshydb.com/en/latest/intro/getti
 MeshyDB gives you a fully functional API backend in minutes. We take care of the bulky time consuming API, letting you focus on the front-end design. Build apps faster by leveraging the MeshyDB backend.
 
 ## Getting Started
-To start a new project download the template project or run the following command:
+To start a new project run the following command and change _projectName_ to your desired project:
 
 ```javascript
-npx @meshydb/react-shell
+npx @meshydb/react-shell _projectName_
 ```
 
-Once it is installed and your project is ready run:
+Once it is installed change your directory and your project is ready run:
 ```javascript
-npm run start
+cd _projectName_ && npm run start
 ```

@@ -1,10 +1,11 @@
 {
   "name": "@meshydb/react-shell",
-  "version": "0.5.0",
-  "description": "Initial React shell with integrated MeshyDB.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.0",
+  "description": "Basic React shell with integrated MeshyDB.",
+  "main": "./index.js",
+  "bin": {
+    "@meshydb/react-shell": "./index.js",
+    "react-shell": "./index.js"
   },
   "author": "Yeti Softworks LLC",
   "license": "MIT",
@@ -12,7 +13,6 @@
     "chalk": "^3.0.0",
     "child_process": "^1.0.2",
     "commander": "^4.0.1",
-    "cross-spawn": "^7.0.1",
     "inquirer": "^7.0.0",
     "listr": "^0.14.3",
     "rimraf": "^3.0.0"
@@ -32,9 +32,8 @@
     "node": ">=8"
   },
   "files": [
-    "index.js"
-  ],
-  "bin": {
-    "create-react-meshy-app": "./index.js"
-  }
+    "index.js",
+    "create.js",
+    "templates/*"
+  ]
 }
