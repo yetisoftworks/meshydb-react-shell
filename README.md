@@ -1,4 +1,4 @@
-# MeshyDB.SDK
+# @meshydb/react-shell
 
 Before you integrate the MeshyDB React App, create a free account at https://meshydb.com
 
@@ -11,7 +11,7 @@ MeshyDB gives you a fully functional API backend in minutes. We take care of the
 To start a new project download the template project or run the following command:
 
 ```javascript
-npx meshydb-react
+npx @meshydb/react-shell
 ```
 
 Once it is installed and your project is ready run:
