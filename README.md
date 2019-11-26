@@ -11,10 +11,10 @@ MeshyDB gives you a fully functional API backend in minutes. We take care of the
 To start a new project run the following command and change _projectName_ to your desired project:
 
 ```javascript
-npx @meshydb/react-shell _projectName_
+npx @meshydb/react-shell projectName
 ```
 
 Once it is installed change your directory and your project is ready run:
 ```javascript
-cd _projectName_ && npm run start
+cd projectName && npm run start
 ```
