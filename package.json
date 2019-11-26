@@ -7,6 +7,12 @@
     "@meshydb/react-shell": "./index.js",
     "react-shell": "./index.js"
   },
+  "keywords": [
+    "meshydb",
+    "react",
+    "shell",
+    "cli"
+  ],
   "author": "Yeti Softworks LLC",
   "license": "MIT",
   "dependencies": {
