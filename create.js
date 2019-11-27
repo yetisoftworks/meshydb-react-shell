@@ -133,7 +133,12 @@ function createTemplate(projectName) {
 
         tasks.run()
             .then(_ => {
-                console.log("Success! To get started type " + chalk.blueBright(`cd ${projectName} && npm start`));
+                console.log('');
+                console.log("Success!");
+                console.log("Let's get started by using the following commands:");
+                console.log('');
+                console.log("\t" + chalk.blueBright(`cd ${projectName}`));
+                console.log("\t" + chalk.blueBright(`npm start`));
             })
             .catch(err => {
                 console.error(err);
