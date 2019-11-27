@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const fs = require('fs');
+const fs = require('fs-extra');
 const commander = require('commander');
 const chalk = require('chalk');
 const cp = require("child_process");
@@ -79,7 +79,7 @@ function createTemplate(projectName) {
                                 () => {
                                     return new Promise((resolve, reject) => {
                                         try {
-                                            fs.promises.mkdir(projectPath).then(_ => {
+                                            fs.mkdirp(projectPath).then(_ => {
                                                 resolve();
                                             }).catch(err => {
                                                 reject(err);
@@ -105,15 +105,8 @@ function createTemplate(projectName) {
 
                             file.name = projectName;
 
-                            fs.promises.writeFile(fileName, JSON.stringify(file), function (err) {
-                                if (err) return console.log(err);
-                                console.log(JSON.stringify(file));
-                                console.log('writing to ' + fileName);
-                            }).then(_ => {
-                                resolve();
-                            }).catch(_ => {
-                                reject(e);
-                            });
+                            fs.writeFileSync(fileName, JSON.stringify(file));
+                            resolve();
                         } catch (e) {
                             reject(e);
                         }

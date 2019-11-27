@@ -1,11 +1,10 @@
 {
   "name": "@meshydb/react-shell",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Basic React shell with integrated MeshyDB.",
   "main": "./index.js",
   "bin": {
-    "@meshydb/react-shell": "./index.js",
-    "react-shell": "./index.js"
+    "meshydb-react-shell": "./index.js"
   },
   "keywords": [
     "meshydb",
@@ -19,6 +18,7 @@
     "chalk": "^3.0.0",
     "child_process": "^1.0.2",
     "commander": "^4.0.1",
+    "fs-extra": "^8.1.0",
     "inquirer": "^7.0.0",
     "listr": "^0.14.3",
     "rimraf": "^3.0.0"
