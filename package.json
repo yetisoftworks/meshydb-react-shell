@@ -1,6 +1,6 @@
 {
   "name": "@meshydb/react-shell",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Basic React shell with integrated MeshyDB.",
   "main": "./index.js",
   "bin": {
