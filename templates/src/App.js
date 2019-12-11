@@ -5,7 +5,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Navbar, Nav } from 'react-bootstrap';
 import { MeshyClient } from "@meshydb/sdk";
 
 const account = '<!-- your account name -->';

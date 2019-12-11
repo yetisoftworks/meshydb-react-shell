@@ -3,12 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 
 class Navigation extends React.Component
-{
-    constructor(props)
-    {
-        super(props); 
-    }
-    
+{    
     render()
     {
         return ( 
